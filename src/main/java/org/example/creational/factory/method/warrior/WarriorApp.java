@@ -10,5 +10,8 @@ public class WarriorApp {
         System.out.println(archer.getClass());
         System.out.println(horseman.getClass());
         System.out.println(knight.getClass());
+
+        System.out.println(archer.attack());
+//        System.out.println(archer.getArrows());
     }
 }

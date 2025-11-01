@@ -16,4 +16,8 @@ abstract class Warrior {
             }
         };
     }
+
+    public String attack() {
+        return "Attack " + this;
+    }
 }
