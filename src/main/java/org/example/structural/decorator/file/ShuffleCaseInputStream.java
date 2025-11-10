@@ -14,7 +14,7 @@ public class ShuffleCaseInputStream extends FilterInputStream {
      * to remember it for later use.
      *
      * @param in the underlying input stream, or {@code null} if
-     *           this instance is to be created without an underlying stream.
+     *           this INSTANCE is to be created without an underlying stream.
      */
     protected ShuffleCaseInputStream(InputStream in) {
         super(in);

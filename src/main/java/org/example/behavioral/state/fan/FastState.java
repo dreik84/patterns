@@ -5,6 +5,6 @@ class FastState implements State {
     @Override
     public void push(Fan fan) {
         System.out.println("Shutdown");
-        fan.setState(new OffState());
+        fan.setState(OffState.getInstance());
     }
 }

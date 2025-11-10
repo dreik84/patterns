@@ -4,7 +4,7 @@ class Fan {
     private State state;
 
     Fan() {
-        state = new OffState();
+        state = OffState.getInstance();
     }
 
     public void push() {
