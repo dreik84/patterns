@@ -1,0 +1,27 @@
+package org.example.reflection;
+
+class Test {
+    private String value;
+
+    private Test(String value) {
+        this.value = value;
+    }
+
+    public Test() {
+    }
+
+    public String getValue() {
+        return value;
+    }
+
+    private void setValue(String value) {
+        this.value = value;
+    }
+
+    @Override
+    public String toString() {
+        return "Test{" +
+                "value='" + value + '\'' +
+                '}';
+    }
+}
