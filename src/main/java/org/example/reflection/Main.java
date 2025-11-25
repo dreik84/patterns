@@ -65,5 +65,7 @@ public class Main {
         System.out.println(test);
         callPrivateMethod(test, "setValue", "privateValue");
         System.out.println(test);
+        Commands commands = new Commands();
+        commands.printHelp();
     }
 }
